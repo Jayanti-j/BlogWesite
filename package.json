@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,9 +14,12 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/Jayanti-j/BlogWesite/issues"
   },
-  "homepage": "https://github.com/Jayanti-j/BlogWesite#readme"
+  "homepage": "https://github.com/Jayanti-j/BlogWesite#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
 }
